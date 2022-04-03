@@ -1,0 +1,6 @@
+@media (max-width: 387px) {
+    .attribution p {
+        width: 250px;
+        text-align: center;
+    }
+}

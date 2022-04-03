@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container {
+    background-color: white;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.container h1 {
+    color: hsl(218, 44%, 22%);
+    margin-top: 20px;
+}
+
+.container p {
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(218, 44%, 22%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    font-weight: 700;
+}
